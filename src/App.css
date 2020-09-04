@@ -1,62 +1,54 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.form {
+  background-color: white;
+  box-sizing: border-box;
+  width: 560px;
+  height: 330px;
+  flex: column;
+  margin: auto;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 10px;
+  border: 1px solid black;
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+  border-radius: 10px;
+  padding: 3px 5px 3px 5px;
+  margin-top: 25px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  padding: 35px 0 0 0;
 }
 
 .content {
-  width: 30%;
-  position: absolute;
-  padding: 10% 10% 0 35%;
+  flex: column;
+  padding: 20px
 }
-.border {
-  border: 1px solid black;
-  border-radius: 10px;
-  box-sizing: border-box;
-  padding: 5% 1% 15% 15%;
+
+.content .inputText {
+  margin-left: 40px;
 }
-.justify {
-  text-align: justify;
+
+.pilihan {
+  margin-left: 168px
 }
-.left {
-  padding-left: 10%;
+
+.inAnggur {
+  margin-left: 85px
 }
-.left2 {
-  margin-left: 3.5%;
+
+.bold {
+  font-weight: bold;
 }
-.mintul {
-  border-radius: 10px;
+
+.content h1 {
+  text-align: center;
+}
+
+.content .name {
+  font-weight: bold;
+}
+
+.pilihan label {
+  font-weight: normal;
 }
