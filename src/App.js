@@ -9,6 +9,7 @@ function App() {
 
       <Tugas10 />
     </div>
+    // Gilang S B
   );
 }
 
