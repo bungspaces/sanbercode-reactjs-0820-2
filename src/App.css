@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.content {
+  width: 30%;
+  position: absolute;
+  padding: 10% 10% 0 35%;
+}
+.border {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 5% 1% 15% 15%;
+}
+.justify {
+  text-align: justify;
+}
+.left {
+  padding-left: 10%;
+}
+.left2 {
+  margin-left: 3.5%;
+}
+.mintul {
+  border-radius: 10px;
+}
