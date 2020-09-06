@@ -8,6 +8,7 @@ function App() {
       <PembelianBuah />
 
       <Tugas10 />
+      <h1>Belajar React Uhuyyyy</h1>
     </div>
   );
 }
