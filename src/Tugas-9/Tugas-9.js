@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 
-function PembelianBuah() {
+function Tugas9() {
   return (
     <div className="container">
       <div className="form">
@@ -36,4 +36,4 @@ function PembelianBuah() {
   );
 }
 
-export default PembelianBuah;
+export default Tugas9;
