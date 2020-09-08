@@ -26,7 +26,6 @@ handleSubmit(event){
         inputName: ""
     })
 }
-
 render(){
     return(
     <>
@@ -36,7 +35,8 @@ render(){
                 <tr>
                     <th>No</th>
                     <th>Nama</th>
-                    <th></th>
+                    <th>Harga</th>
+                    <th>Berat</th>
             </tr>
             </thead>
             <tbody>
@@ -46,6 +46,8 @@ render(){
                     <tr>
                         <td>{index+1}</td>
                         <td>{val}</td>
+                        <td>{}</td>
+                        <td>{}</td>
                     </tr>
                     )
                 })
