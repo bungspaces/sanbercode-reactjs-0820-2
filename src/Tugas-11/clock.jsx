@@ -43,7 +43,7 @@ class Tugas11 extends Component {
           <h1></h1>
         ) : (
           <h1>
-            Sekarang jam: {this.state.time} &nbsp; Hitung Mundur: {seconds}
+            Sekarang jam: {this.state.time} &nbsp; Hitung mundur: {seconds}
           </h1>
         )}
       </div>
