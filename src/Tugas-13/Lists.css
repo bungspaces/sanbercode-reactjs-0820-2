@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+th {
+    background-color: darkgray;
+}
+
+td {
+    background-color: rgb(255, 121, 69);
+}
+
+table {
+    margin: auto;
+}
