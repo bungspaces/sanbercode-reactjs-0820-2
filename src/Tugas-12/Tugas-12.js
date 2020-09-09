@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Lists.css";
 
-class TabelHargaBuah2 extends Component {
+class TabelHargaBuah extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -180,4 +180,4 @@ submitForm = (event) => {
     );
   }
 }
-export default TabelHargaBuah2;
+export default TabelHargaBuah;
