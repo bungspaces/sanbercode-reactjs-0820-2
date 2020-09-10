@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import "./Lists.css";
 
 export default function Tugas13() {
     const [dataHargaBuah, setDataHargaBuah] = useState([]);
@@ -109,7 +110,7 @@ export default function Tugas13() {
                         <div style={{ display: 'inline-block', width: 150, fontWeight: 'bold', fontSize: 16 }}>Berat (gram)</div>
                         <input style={{ display: 'inline-block' }} type="text" onChange={handleBerat} value={weight} />
                     </div>
-                    <button type="submit" style={{ background: 'white', borderRadius: 20, textDecoration: "none", color: "black", cursor: "pointer" }}>
+                    <button type="submit" style={{ background: 'white', textDecoration: "none", color: "black", cursor: "pointer" }}>
                         {!isEdit ? 'Simpan' : 'Edit'}
                     </button>
                 </div>
