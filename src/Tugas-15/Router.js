@@ -3,20 +3,20 @@ import { Switch, Route } from 'react-router'
 import Switcher from './Switcher'
 
 // Component Tugas - Tugas
-/* import Form from '../Tugas9/Form'
-import ItemLists from '../Tugas10/ItemLists'
-import Timer from '../Tugas11/Timer'
-import ApiFetch from '../Tugas13/apiFetch'
-import ListFruits from '../Tugas13/ListFruits'
-import Fruit from '../Tugas14/Fruit' */
-
+import Form from '../Tugas9/Form'
+import ItemLists from '../Tugas-10/ItemLists'
+import Timer from '../Tugas-11/Timer'
+import ApiFetch from '../Tugas-13/apiFetch'
+import ListFruits from '../Tugas-13/ListFruits'
+import Fruit from '../Tugas-14/Buah'
+/* 
 import Tugas9 from "../src/Tugas-9/Tugas-9";
 import Tugas10 from "../src/Tugas-10/Tugas-10";
 import Tugas11 from "../src/Tugas-11/clock";
 import Tugas12 from "../src/Tugas-12/Tugas-12";
 import Tugas13 from "../src/Tugas-13/Tugas-13";
 import Tugas14 from "../src/Tugas-14/Buah.js";
-import Tugas15 from  "../src/Tugas-15/Routes.js";
+import Tugas15 from  "../src/Tugas-15/Routes.js"; */
 
 const Home = () => {
     return (

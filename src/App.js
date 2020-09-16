@@ -6,7 +6,8 @@ import Tugas11 from "../src/Tugas-11/clock";
 import Tugas12 from "../src/Tugas-12/Tugas-12";
 import Tugas13 from "../src/Tugas-13/Tugas-13";
 import Tugas14 from "../src/Tugas-14/Buah.js"; */
-import Tugas15 from  "../src/Tugas-15/Routes.js";
+import Tugas15 from  "../src/Tugas-15/Routes";
+import Routes from "./Tugas-15/Router";
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
 
       <Tugas14 /> */}
 
-      <Tugas15 />
+      <Routes />
     </Router> 
   );
 }
